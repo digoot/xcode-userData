@@ -133,15 +133,5 @@
 			<string>static</string>
 		</dict>
 	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>Base.lproj/</key>
-		<string></string>
-	</dict>
-	<key>Nodes</key>
-	<array>
-		<string>___FILEBASENAME___ViewController.swift</string>
-		<string>___FILEBASENAME___.storyboard</string>
-	</array>
 </dict>
 </plist>
