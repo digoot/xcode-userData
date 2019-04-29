@@ -1,7 +1,7 @@
 //___FILEHEADER___
 
 import Foundation
-
+import RxSwift
 
 // MARK: Protocols for presenter
 
@@ -25,4 +25,5 @@ protocol ViewToPresenter___VARIABLE_moduleName___Protocol : class {
     var router: PresenterToRouter___VARIABLE_moduleName___Protocol? { get set }
     var interactor: PresenterToInteractor___VARIABLE_moduleName___Protocol? { get set }
     var view: PresenterToView___VARIABLE_moduleName___Protocol? { get set }
+    func viewIsReady()
 }
