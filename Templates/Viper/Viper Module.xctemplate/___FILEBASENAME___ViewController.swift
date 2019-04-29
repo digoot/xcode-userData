@@ -13,8 +13,8 @@ class ___FILEBASENAME___: UIViewController {
     
 }
 
-extension ___FILEBASENAME___: PresentToView___VARIABLE_moduleName___Protocol {
+extension ___FILEBASENAME___: PresenterToView___VARIABLE_moduleName___Protocol {
     
-    <# protocol functions #>
+    
     
 }

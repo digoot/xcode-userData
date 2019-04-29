@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import Foundation
+import UIKit
 import RxSwift
 
 // MARK: Protocols for presenter

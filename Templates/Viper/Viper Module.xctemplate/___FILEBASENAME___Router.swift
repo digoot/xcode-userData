@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import Foundation
+import UIKit
 
 class ___FILEBASENAME___: PresenterToRouter___VARIABLE_moduleName___Protocol {
     

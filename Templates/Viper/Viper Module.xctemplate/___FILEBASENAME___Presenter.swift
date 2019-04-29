@@ -1,6 +1,5 @@
 //___FILEHEADER___
 
-import Foundation
 import RxSwift
 
 class ___FILEBASENAME___: ViewToPresenter___VARIABLE_moduleName___Protocol {
@@ -12,7 +11,7 @@ class ___FILEBASENAME___: ViewToPresenter___VARIABLE_moduleName___Protocol {
     let disposebag = DisposeBag()
     
     func viewIsReady() {
-        <# code #>
+        
     }
     
 }
