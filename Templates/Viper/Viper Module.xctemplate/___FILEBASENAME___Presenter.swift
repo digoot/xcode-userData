@@ -10,8 +10,6 @@ class ___FILEBASENAME___: ViewToPresenter___VARIABLE_moduleName___Protocol {
     
     let disposebag = DisposeBag()
     
-    func viewIsReady() {
-        
-    }
+    func viewIsReady() {}
     
 }

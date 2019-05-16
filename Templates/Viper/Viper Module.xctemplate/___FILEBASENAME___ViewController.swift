@@ -15,6 +15,4 @@ class ___FILEBASENAME___: UIViewController {
 
 extension ___FILEBASENAME___: PresenterToView___VARIABLE_moduleName___Protocol {
     
-    
-    
 }
