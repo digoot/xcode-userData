@@ -2,6 +2,8 @@
 
 import Foundation
 
-protocol ___FILEBASENAME___ {
-    <#requirements#>
+protocol ___FILEBASENAMEASIDENTIFIER___ {
+    
+    <# Declaration #>
+    
 }

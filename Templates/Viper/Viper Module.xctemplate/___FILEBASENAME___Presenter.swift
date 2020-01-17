@@ -2,7 +2,7 @@
 
 import RxSwift
 
-class ___FILEBASENAME___: ViewToPresenter___VARIABLE_moduleName___Protocol {
+class ___FILEBASENAMEASIDENTIFIER___: ViewToPresenter___VARIABLE_moduleName___Protocol {
     
     // MARK: Variables
     

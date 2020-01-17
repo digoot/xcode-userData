@@ -3,7 +3,7 @@
 import Foundation
 import RxSwift
 
-class ___FILEBASENAME___: PresenterToInteractor___VARIABLE_moduleName___Protocol {
+class ___FILEBASENAMEASIDENTIFIER___: PresenterToInteractor___VARIABLE_moduleName___Protocol {
     
     // MARK: Variables
     

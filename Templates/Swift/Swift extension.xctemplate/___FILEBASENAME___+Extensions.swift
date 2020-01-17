@@ -1,7 +1,7 @@
 //___FILEHEADER___
 
-import Foundation
+import <# Library #>
 
-extension ___FILEBASENAME___ {
+extension ___FILEBASENAMEASIDENTIFIER___ {
     <# extension functions #>
 }
