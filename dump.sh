@@ -1,6 +1,6 @@
 #!/bin/sh
 
-XCODEDIR=~/Library/Developer/Xcode
+XCODEDIR=$HOME/Library/Developer/Xcode
 WORKINGDIR=$PWD
 
 rsync -av $XCODEDIR/Templates $WORKINGDIR --exclude .DS_Store
