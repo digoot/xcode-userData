@@ -10,15 +10,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: Variables
+	<string>// MARK: - Variables
     
     
     
-    // MARK: Constructors
+// MARK: - Constructors
     
     
     
-    // MARK: Functions
+// MARK: - Functions
     
     </string>
 	<key>IDECodeSnippetIdentifier</key>

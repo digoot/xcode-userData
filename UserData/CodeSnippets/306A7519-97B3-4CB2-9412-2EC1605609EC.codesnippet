@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>psf</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public static func &lt;# func name #&gt;(&lt;# params #&gt;) &lt;# -&gt; () #&gt; {
-    &lt;# code #&gt;
+	<string>struct &lt;#name#&gt;: Codable {
+    &lt;#fields#&gt;
+    
+    enum CodingKeys: String, CodingKey {
+        case &lt;#fields#&gt;
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB56F0BF-00C2-4FFA-AD96-11C46D842514</string>
+	<string>306A7519-97B3-4CB2-9412-2EC1605609EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>This is a snippet to create public static functions</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Public Static Function</string>
+	<string>Codable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

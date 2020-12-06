@@ -7,13 +7,12 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>TopLevel</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
-        &lt;#function body#&gt;
-    }</string>
+	<string>private func &lt;#name#&gt;(&lt;#parameters#&gt;) &lt;# -&gt; () #&gt; {
+    &lt;# code #&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0A253FD0-704A-48AC-9A73-1BD5BB323960</string>
 	<key>IDECodeSnippetLanguage</key>

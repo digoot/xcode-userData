@@ -7,7 +7,7 @@ class ___FILEBASENAMEASIDENTIFIER___: PresenterToRouter___VARIABLE_moduleName___
     // MARK: Variables
     
     static var storyboard: UIStoryboard {
-        let storyboard = StoryboardManager.shared.___VARIABLE_moduleName___Storyboard
+        let storyboard = StoryboardManager.shared.<# StoryboardManager variable #>
         return storyboard
     }
     

@@ -116,6 +116,46 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.EditorPlus,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.EditorPlus.AddTypeDelegate</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Editor+</string>
+				<key>Title</key>
+				<string>Add Type Delegate</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.EditorPlus,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.EditorPlus.AddTypeExtension</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Editor+</string>
+				<key>Title</key>
+				<string>Add Type Extension</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
 				<string>IDESourceEditorExtension:truong.tuan.TextPlus.EditorPlus,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.EditorPlus.RemoveComment</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
@@ -129,6 +169,46 @@
 				<string>Editor+</string>
 				<key>Title</key>
 				<string>Remove Comment</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.ClearLine</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Clear Line</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.ClearLineAndPaste</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Clear Line and Paste</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -164,7 +244,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~@x</string>
+				<string>~$@X</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
@@ -206,13 +286,97 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~@d</string>
+				<string>~$@D</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
 				<string>Line</string>
 				<key>Title</key>
 				<string>Duplicate Line</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.DuplicateLineDown</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$@</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Duplicate Line Down</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.DuplicateLineUp</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$@</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Duplicate Line Up</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.InsertLineAfter</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Insert Line Below</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.InsertLineBefore</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Insert Line Above</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -233,6 +397,46 @@
 				<string>Line</string>
 				<key>Title</key>
 				<string>Join Lines</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.MoveLineDown</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Move Line Down</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:truong.tuan.TextPlus.Line,IDESourceEditorExtensionCommand:truong.tuan.TextPlus.Line.MoveLineUp</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Line</string>
+				<key>Title</key>
+				<string>Move Line Up</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -708,6 +912,7 @@
 		<dict>
 			<key></key>
 			<array>
+				<string>complete:</string>
 				<string>insertNewlineIgnoringFieldEditor:</string>
 				<array>
 					<string>insertNewlineIgnoringFieldEditor:</string>
@@ -716,8 +921,6 @@
 			</array>
 			<key>^~l</key>
 			<string>selectLine:</string>
-			<key>~x</key>
-			<string>deleteLine:</string>
 		</dict>
 		<key>Version</key>
 		<integer>3</integer>

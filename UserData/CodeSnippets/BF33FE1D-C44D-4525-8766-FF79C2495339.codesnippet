@@ -3,24 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>inf</string>
+	<string>$mappable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>internal func &lt;#name#&gt;(&lt;#parameters#&gt;) &lt;# -&gt; () #&gt; {
-    &lt;# code #&gt;
+	<string>fileprivate enum Values: String {
+    case &lt;# fields #&gt;
+}
+
+internal var &lt;# name #&gt;: &lt;# type #&gt;?
+
+override func mapping(map: Map) {
+    &lt;# var #&gt; &lt;- map[Values.&lt;# field #&gt;.rawValue]
+}
+
+override func describe() -&gt; String {
+    guard
+        let &lt;# var #&gt; = &lt;# var #&gt;
+    else { return emptyObject() }
+    return """
+            {
+                &lt;# var #&gt;: \(&lt;# description #&gt;)
+            }
+            """
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0A7C1451-8681-4C69-A856-F3D49E6E44BE</string>
+	<string>BF33FE1D-C44D-4525-8766-FF79C2495339</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Structure of a Mappable Object</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Internal Function</string>
+	<string>Mappable ObjectMapper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

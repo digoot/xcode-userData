@@ -8,12 +8,11 @@
 	<array>
 		<string>All</string>
 		<string>ClassImplementation</string>
-		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
-        &lt;#function body#&gt;
-    }</string>
+	<string>fileprivate func &lt;#name#&gt;(&lt;#parameters#&gt;) &lt;# -&gt; () #&gt; {
+    &lt;# code #&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E881E689-DE6E-4116-BF5A-8E58E6BBAB9F</string>
 	<key>IDECodeSnippetLanguage</key>
