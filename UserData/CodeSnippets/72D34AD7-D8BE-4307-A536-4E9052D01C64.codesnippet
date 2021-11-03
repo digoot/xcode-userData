@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#if canImport(SwiftUI) &amp;&amp; DEBUG
+import SwiftUI
+struct &lt;# name #&gt;Previews: PreviewProvider, UIViewPreviewProvider {
+    
+    static let uiPreviews: [Preview] = {
+        
+        let view = &lt;# view #&gt;
+        
+        return [Preview(view, displayName: &lt;# display name #&gt;)]
+    }()
+    
+}
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>72D34AD7-D8BE-4307-A536-4E9052D01C64</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View preview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
