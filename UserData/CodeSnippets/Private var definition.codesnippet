@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakself</string>
+	<string>private var</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] &lt;# result #&gt; in</string>
+	<string>private var &lt;#name#&gt;: &lt;#type#&gt; &lt;#=#&gt; &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D5D12FF-9A5C-4545-A221-4C2D96623BEF</string>
+	<string>853A67AD-43B5-4320-8289-9AA52BACA63C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Private var definition</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak Self</string>
+	<string>Private var</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>psf</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public static func &lt;# func name #&gt;(&lt;# params #&gt;) &lt;# -&gt; () #&gt; {
-    &lt;# code #&gt;
-}</string>
+	<string>[weak self] &lt;#_#&gt; &lt;#-&gt;#&gt; &lt;#result#&gt; in</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB56F0BF-00C2-4FFA-AD96-11C46D842514</string>
+	<string>5D5D12FF-9A5C-4545-A221-4C2D96623BEF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>This is a snippet to create public static functions</string>
+	<string>Weak self escaping closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Public Static Function</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

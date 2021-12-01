@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sf</string>
+	<string>private let</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static func &lt;# func name #&gt;(&lt;# params #&gt;) &lt;# -&gt; () #&gt; {
-    &lt;# code #&gt;
-}</string>
+	<string>private let &lt;#name#&gt;: &lt;#type#&gt; &lt;#=#&gt; &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>768C5F33-6728-4748-BB04-C8FB6D24F398</string>
+	<string>4D123645-DCB7-4E6F-8CE2-A76CEB76E121</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Static function definition</string>
+	<string>Private let definition</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Static Function</string>
+	<string>Private let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
