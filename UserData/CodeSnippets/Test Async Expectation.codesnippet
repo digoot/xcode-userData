@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>expectation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: &lt;# Description #&gt;</string>
+	<string>let expectation = self.expectation(description: #function)
+var output: &lt;#Type#&gt;?
+
+sut.&lt;#function#&gt;
+    .sink { output = $0; expectation.fulfill() }
+    .store(in: &amp;&lt;#Subscriptions#&gt;)
+wait(for: expectation)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6A1A5EF5-0E0C-4626-BB77-2F196A323B2B</string>
+	<string>B72CDAD0-D0E1-4C62-B31C-E2EC32898058</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Implements the espectation for an async method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FIXME</string>
+	<string>Test Async Expectation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

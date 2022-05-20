@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - &lt;# Title #&gt;</string>
+	<string>// MARK: - &lt;# Title #&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B4FE7B20-9809-4295-BE3C-3CB12366375D</string>
 	<key>IDECodeSnippetLanguage</key>

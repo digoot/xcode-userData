@@ -6,10 +6,11 @@
 	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] &lt;#_#&gt; &lt;#-&gt;#&gt; &lt;#result#&gt; in</string>
+	<string>[weak self] &lt;#_ -&gt; result#&gt; in</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5D5D12FF-9A5C-4545-A221-4C2D96623BEF</string>
 	<key>IDECodeSnippetLanguage</key>

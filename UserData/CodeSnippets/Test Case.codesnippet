@@ -9,8 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func testWhen&lt;# Initial State #&gt;When&lt;# Method #&gt;Then&lt;# Assert #&gt; throws {
-    &lt;#statements#&gt;
+	<string>func testGiven&lt;# Initial State #&gt;When&lt;# Method #&gt;Then&lt;# Assert #&gt;() &lt;#throws#&gt; {
+    &lt;# statements #&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D93BC616-D91D-4A81-B47A-8F181E4C4B62</string>
@@ -23,6 +23,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

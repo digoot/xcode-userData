@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>batch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: &lt;# Description #&gt;</string>
+	<string>try [
+    &lt;#test structs#&gt;
+].forEach {
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6A1A5EF5-0E0C-4626-BB77-2F196A323B2B</string>
+	<string>AEDE00E7-91F0-4ADF-BAA6-49C7E1518A26</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Implements a batch test</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FIXME</string>
+	<string>Batch test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

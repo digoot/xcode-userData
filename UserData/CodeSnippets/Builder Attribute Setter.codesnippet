@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>attribute</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: &lt;# Description #&gt;</string>
+	<string>func &lt;#attribute#&gt;(_ param: &lt;#Type#&gt;) -&gt; Self {
+    &lt;#attribute#&gt; = param
+    return self
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6A1A5EF5-0E0C-4626-BB77-2F196A323B2B</string>
+	<string>FC26C9B1-A2E3-47F8-8BBC-8EC0F80325C7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Makes an attribute setter for a builder</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FIXME</string>
+	<string>Builder Attribute Setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
